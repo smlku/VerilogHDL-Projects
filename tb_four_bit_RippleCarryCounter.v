@@ -1,6 +1,6 @@
 module tb_ripple_carry_counter;
 reg clk, reset;
-wire[4:0] q;
+wire[3:0] q;
 
 ripple_carry_counter r1(q, clk, reset);
 
